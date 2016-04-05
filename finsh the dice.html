@@ -1,54 +1,87 @@
 <html>
 <head>
 	<style>
-div.wrap {
-	perspective: 800px;
-	perspective-origin: 50% 100px;
-}
-.cube {
+.dice{
 	position: relative;
-	width: 200px;
-	transform-style: preserve-3d;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.cube div {
-	position: absolute;
-	width: 200px;
-	height: 200px;
+.dice{
+	position: relative;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.back {
-	transform: translateZ(-100px) rotateY(180deg);
+
+.dice{
+	position: relative;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.right {
-	transform: rotateY(-270deg) translateX(100px);
-	transform-origin: top right;
+
+.dice{
+	position: relative;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.left {
-	transform: rotateY(270deg) translateX(-100px);
-	transform-origin: center left;
+
+.dice{
+	position: relative;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.top {
-	transform: rotateX(-90deg) translateY(-100px);
-	transform-origin: top center;
+
+.dice{
+	position: relative;
+	width: 100px;
+	height:100px;
+	background: #ffffff;
+	border:1px solid black;
+  display:inline-block;
+	border-radius: 20px;
 }
-.bottom {
-	transform: rotateX(90deg) translateY(100px);
-	transform-origin: bottom center;
+
+.circle{
+width:20px;
+height:20px;
+border-radius: 50px;
+background-color: solid black;
+position: absolute;
 }
-.front {
-	transform: translateZ(100px);
-}
-</style> 
+</style>
 </head>
 <body>
-<div class="wrap">
-	<div class="cube">
-		<div class="front">front</div>
-		<div class="back">back</div>
-		<div class="top">top</div>
-		<div class="bottom">bottom</div>
-		<div class="left">left</div>
-		<div class="right">right</div>
-	</div>
-</div>
+<div class="dice"></div>
+<div class="dice"></div>
+<div class="dice"></div>
+<div class="dice"></div>
+<div class="dice"></div>
+<div class="dice"></div>
+<div class="circle1"></div>
+<div class="circle2"></div>
+<div class="circle3-2"></div>
+<div class="circle1"></div>
+<div class="circle1"></div>
+
+
 </body>
 </html>
